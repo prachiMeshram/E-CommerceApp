@@ -13,7 +13,7 @@ const Login = () => {
 
     // console.log(email);
 
-    const res = await axios.post("http://localhost:8000/api/auth/login", {
+    const res = await axios.post("http://localhost:8001/api/auth/login", {
       data: { email, password },
     });
     // console.log(res.data);

@@ -10,7 +10,7 @@ const WidgetSm = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const res = await axios.get("http://localhost:8000/api/user/getall", {
+        const res = await axios.get("http://localhost:8001/api/user/getall", {
           headers: {
             authorization:
               "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ODQwYWM1ZGE5ZGYyNzFjOGRjZjQ4NyIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4ODIwMjkwMywiZXhwIjoxNjg4NjM0OTAzfQ.XdFWULUTKSB8CVJe1a_hkotgNS5uWbJk4bwUpmcBmtQ",

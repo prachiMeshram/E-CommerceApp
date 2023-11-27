@@ -30,7 +30,7 @@ const Home = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await axios.get("http://localhost:8000/api/user/userStats", {
+      const res = await axios.get("http://localhost:8001/api/user/userStats", {
         headers: {
           authorization:
             token,
